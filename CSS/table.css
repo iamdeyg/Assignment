@@ -5,6 +5,11 @@ body {
 .container {
   padding: 0 40px;
 }
+.table-responsive {
+  width: 100%;
+  overflow-x: auto; /* Allows horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile */
+}
 .main-divv {
   display: flex;
   justify-content: space-between;
@@ -87,5 +92,12 @@ th {
   }
   .r-main {
     display: none;
+  }
+  .table-responsive {
+    overflow-x: auto;
+  }
+  .table th,
+  .table td {
+    font-size: 14px; /* Adjust text size for smaller screens */
   }
 }
