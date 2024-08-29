@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="/CSS/media.css" />
+  </head>
+
+  <body>
+    <header id="top">
+      <nav>
+        <div class="main-divv container">
+          <div class="list">
+            <a class="btn" href="index.html">About Me</a>
+            <a class="btn" href="form.html">Application Form</a>
+            <a class="btn" href="media.html">Media</a>
+            <a class="btn" href="table.html">AltSchool Courses</a>
+          </div>
+          <div class="r-main">
+            <a class="btn" href="#bottom">Go to Bottom</a>
+            <button class="bttn">visit official website</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h1 class="m-txt">Media Elements Page</h1>
+      <p class="m-txt m-txt-details">Name: ADERINOLA ADEDEJI ADEOLU</p>
+      <p class="m-txt m-txt-details">Student ID: ALT/SOE/024/0513</p>
+      <p class="m-txt">
+        <a href="table.html">Click here</a> to return to Altschool table of
+        courses
+      </p>
+
+      <!-- Using the picture element for responsive images -->
+      <p class="new-div">This is a picture</p>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="assets/passport1.jpg" />
+        <source media="(min-width: 992px)" srcset="assets/passport1.jpg" />
+        <source media="(min-width: 768px)" srcset="assets/passport1.jpg" />
+        <source media="(min-width: 480px)" srcset="assets/passport1.jpg" />
+        <source media="(min-width: 320px)" srcset="assets/passport1.jpg" />
+        <img
+          class="media media-i"
+          src="assets/passport1.jpg"
+          width="300px"
+          height="300px"
+          alt="Responsive Image"
+        />
+      </picture>
+
+      <br /><br />
+      <!-- Embedding a video -->
+      <p class="new-div">This is a video</p>
+      <video class="media" controls width="50%">
+        <source src="/assets/videoplay.MP4" type="video/mp4" />
+        <!-- <source src="video.ogv" type="video/ogg" /> -->
+      </video>
+      <br /><br />
+      <!-- Embedding an audio file -->
+      <p class="new-div">This is an audio</p>
+      <audio class="media" controls>
+        <source src="/assets/music.mp3" type="audio/mpeg" />
+        <!-- <source src="music.ogg" type="audio/ogg" /> -->
+      </audio>
+      <br /><br />
+      <!-- Embedding an iframe -->
+      <p class="new-div">This is an embedded video</p>
+      <iframe
+        class="media"
+        width="50%"
+        height="315"
+        src="https://www.youtube.com/embed/2zuTSSdlavw?si=61GDoCUb7WaSbmQb"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <br /><br />
+
+      <section id="bottom">
+        <a href="#top">Go to Top</a>
+      </section>
+    </div>
+  </body>
+  <footer>
+    <div class="bottom-container">
+      <div class="container footer">
+        <a class="footer-link" href="https://www.linkedin.com/in/aaaderinola/"
+          >LinkedIn</a
+        >
+        <a class="footer-link" href="https://twitter.com/iamdeyg">Twitter</a>
+        <a class="footer-link" href="https://github.com/iamdeyg">Github</a>
+        <p class="copyright">&copy; 2024 Adedeji Aderinola.</p>
+      </div>
+    </div>
+  </footer>
+</html>

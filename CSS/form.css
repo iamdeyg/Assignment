@@ -1,0 +1,145 @@
+/* Style for form page */
+body {
+  margin: 0px;
+}
+
+.container {
+  padding: 0 40px;
+}
+
+.txxt {
+  color: #8c8c8c;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #6a6ff5;
+  align-items: center;
+}
+.r-div {
+  text-align: right;
+  margin-top: 20px;
+}
+.r-div a {
+  color: #0566f1;
+}
+.btn {
+  padding-right: 20px;
+  color: white;
+}
+
+/* body styling starts here */
+.flex {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.l-img {
+  background-color: #fefcf7;
+  width: 50%;
+  padding-top: 40px;
+  text-align: center;
+}
+.tt {
+  font-size: 60px;
+  /* line-height: 40px; */
+  padding: 0 80px;
+  margin: 0;
+}
+
+.img {
+  width: 70%;
+  /* display: block; */
+  /* margin: auto auto;*/
+}
+
+.formdiv {
+  height: 100vh;
+  width: 50%;
+  max-height: 1500px;
+  overflow: auto;
+}
+.height {
+  min-height: 100px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+.i-style {
+  background-color: #fafafa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.btn-submit {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6a6ff5;
+  margin: 10px 0 40px;
+  color: white;
+}
+
+.bottom-containerr {
+  margin-left: 50px;
+}
+.copyright {
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
+.footer-link {
+  padding-right: 20px;
+}
+.ryhme {
+  background-color: #fefcf7;
+}
+
+/* responsive style */
+@media screen and (min-width: 768px) {
+  .main-div {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .l-img {
+    display: none;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .main-div {
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+  }
+  .list a {
+    width: 100%;
+    margin: 5px 0; /* Add space between buttons */
+    /* text-align: center; */
+    font-size: 12px;
+  }
+  .formdiv {
+    width: 100%;
+  }
+}

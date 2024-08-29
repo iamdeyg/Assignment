@@ -1,0 +1,130 @@
+/* Style for media page */
+body {
+  margin: 0px;
+}
+
+.container {
+  padding: 0 40px;
+}
+.main-divv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #6a6ff5;
+}
+.btn {
+  padding-right: 20px;
+  color: white;
+}
+
+.bttn {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: #6a6ff5;
+  padding: auto;
+}
+.m-txt {
+  text-align: center;
+}
+.m-txt-details {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.media {
+  display: block;
+  margin: auto auto;
+}
+.media-i {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.new-div {
+  background-color: #e0e0e0;
+  height: 30px;
+  font-weight: bold;
+  text-justify: center;
+}
+/* footer */
+.bottom-container {
+  background-color: #6a6ff5;
+  padding: 20px 0 5px;
+  margin-top: 40px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
+.footer-link {
+  padding-right: 20px;
+  color: #eaf6f6;
+}
+.margin {
+  margin-bottom: 40px;
+}
+/* responsive style */
+@media screen and (min-width: 768px) {
+  .main-divv {
+    font-size: 14px;
+  }
+  .m-txt-details {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 0 20px;
+  }
+  .main-divv {
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+  }
+  .list a {
+    width: 100%;
+    margin: 5px 0; /* Add space between buttons */
+    /* text-align: center; */
+    font-size: 12px;
+  }
+
+  .r-main {
+    display: none;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .m-txt-details {
+    font-size: 12px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link {
+    margin: 5px 0;
+  }
+  .media-i {
+    height: 200px;
+    width: 200px;
+  }
+  .media {
+    width: 100%;
+  }
+  .media-i {
+    width: 80%;
+  }
+}
