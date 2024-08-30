@@ -100,4 +100,13 @@ th {
   .table td {
     font-size: 14px; /* Adjust text size for smaller screens */
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link {
+    margin: 5px 0;
+    font-size: 12px;
+  }
 }
